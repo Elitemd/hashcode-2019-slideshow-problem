@@ -1,7 +1,7 @@
 import random
 from tqdm import tqdm
 
-FILENAME = "a"
+FILENAME = "c"
 
 def get_union(tags1, tags2):
     return list(set(tags1) | set(tags2))
